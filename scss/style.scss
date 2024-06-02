@@ -1,0 +1,109 @@
+@import "fonts";
+@import "mixin";
+@import "reset";
+@import "variables";
+@import "colors";
+@import "./components/back-to-top";
+@import "./components/global-button";
+@import "./components/header";
+@import "./components/banner";
+@import "./components/brand-logo";
+@import "./components/softwares";
+@import "./components/request-call-back";
+@import "./components/impacts";
+@import "./components/testimonial";
+@import "./components/choose-us";
+@import "./components/packages";
+@import "./components/connect";
+@import "./components/footer";  
+ 
+body {
+  background: #feffff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings: "slnt" 0;
+  padding-top: 85px;
+}
+
+.custom-container {
+  max-width: 1200px;
+}
+
+
+.mb-80 {
+  margin-bottom: 80px;
+  @media(max-width: 1199.98px) {
+    margin-bottom: 50px
+  }
+}
+.section-padding {
+  margin-bottom: 130px;
+  @media(max-width: 1199.98px) {
+    margin-bottom: 50px;
+  }
+}
+.title-xl {
+  color: #182527;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -1.44px;
+  @media(min-width: 576px)and(max-width: 991.98px) {
+    font-size: 37px;
+  }
+  @media(max-width: 575.98px) {
+    font-size: 30px;
+  }
+}
+.title-lg {
+  color: #0e0f12;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 160%;
+  @media(min-width: 576px)and(max-width: 991.98px) {
+    font-size: 32px;
+  }
+  @media(max-width: 575.98px) {
+    font-size: 24px;
+  }
+}
+.title-sm {
+  color: #0c222c;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.72px;
+  @media(min-width: 768px)and(max-width: 991.98px) {
+    font-size: 20px;
+  }
+}
+.subtitle-xl {
+  color: #8b8b8b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.4px;
+  @media(min-width: 768px)and(max-width: 991.98px) {
+    font-size: 15px;
+  }
+}
+.subtitle-lg {
+  color: #8B8B8B;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.18px;
+  @media(min-width: 768px)and(max-width: 991.98px) {
+    font-size: 14px;
+  }
+  
+}
+.subtitle-sm {
+  color: #7B7B7B;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.18px;
+}

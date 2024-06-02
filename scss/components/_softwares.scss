@@ -1,0 +1,10 @@
+.softwares {
+  .card {
+    border-radius: 16px;
+    .card-body {
+      @media(max-width: 1199.98px) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.impacts {
+  background: linear-gradient(
+    180deg,
+    rgba(38, 83, 241, 0.02) 0%,
+    rgba(38, 83, 241, 0.08) 36.96%,
+    rgba(38, 83, 241, 0) 100%
+  );
+  padding-top: 130px;
+  @media(max-width: 1199.98px) {
+    padding-top: 50px;
+  }
+  .counting-stats {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    justify-content: space-between;
+    margin-top: 50px;
+    @media(min-width: 992px)and(max-width: 1199.98px) {
+      gap: 20px;
+    }
+    @media(min-width: 768px)and(max-width: 991.98px) {
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    @media(min-width: 576px)and(max-width: 767.98px) {
+      margin-bottom: 50px;
+    }
+    @media(max-width: 575.98px) {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 50px;
+    }
+    h3 {
+      color: #1d6363;
+      font-size: 30px;
+      font-weight: 700;
+      span {
+        font-size: 36px;
+        @media(min-width: 992px)and(max-width: 1199.98px) {
+          font-size: 26px; 
+        }
+        @media (max-width: 991.98px) {
+          font-size: 28px;
+        }
+        
+      }
+    }
+    h4 {
+      color: #6B6B6B;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}

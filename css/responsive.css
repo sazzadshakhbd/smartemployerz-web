@@ -1,0 +1,213 @@
+@media (min-width: 768px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
+}
+@media (max-width: 1199.98px) {
+  header .navbar a.navbar-brand img {
+    width: 145px;
+  }
+  header .navbar .navbar-collapse ul.bottom-bar li {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 991.98px) {
+  .theme-btn {
+    width: 85px;
+    line-height: 36px;
+    min-height: 36px;
+  }
+  header .navbar .navbar-collapse ul.bottom-bar li {
+    margin-left: 5px;
+  }
+  header .navbar .navbar-collapse ul.bottom-bar li a {
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 0 0 10px;
+  }
+  header .navbar .navbar-collapse ul li .dropdown {
+    margin-right: 10px;
+  }
+  header .navbar a.navbar-brand img {
+    max-width: 100px;
+  }
+  header .navbar .navbar-collapse ul.top-bar {
+    width: 93%;
+  }
+  header .navbar .navbar-collapse ul.top-bar li.left-section-links .phone,
+  header .navbar .navbar-collapse ul.top-bar li.right-section-links .faq,
+  header .navbar .navbar-collapse ul.top-bar li.left-section-links .email {
+    margin-right: 20px;
+    display: flex;
+  }
+  .social-links ul li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+  }
+  footer {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .custom-container {
+    max-width: inherit;
+  }
+  footer {
+    background: none;
+  }
+  header .navbar .navbar-collapse ul.top-bar {
+    width: 100%;
+  }
+  header .navbar .navbar-collapse ul li a.theme-btn {
+    display: block;
+    width: 100%;
+    background: #fed831;
+    color: #1d1d20;
+  }
+  header {
+    background: #1d1d20;
+  }
+  header.sticky {
+    background: #1d1d20;
+  }
+  header .navbar {
+    padding: 5px 15px;
+  }
+  header .navbar button.navbar-toggler {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    border-radius: 8px;
+    padding: 0;
+    background-color: transparent;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  .banner .banner-content {
+    padding-bottom: 50px;
+    padding-top: 70px;
+  }
+  header .navbar .navbar-collapse ul.top-bar li.left-section-links,
+  header .navbar .navbar-collapse ul.top-bar li.right-section-links .faq,
+  header .navbar .navbar-collapse ul li .dropdown {
+    display: none;
+  }
+  header .navbar .navbar-collapse ul.top-bar {
+    display: inline-block;
+    margin: 15px 0 15px 0px;
+  }
+  header .navbar .navbar-collapse ul.bottom-bar li {
+    margin-left: 0;
+  }
+  header
+    .navbar
+    .navbar-collapse
+    ul.bottom-bar
+    li
+    a.dropdown-toggle
+    img.icon-down {
+    float: right;
+  }
+  header .navbar .navbar-collapse ul.bottom-bar li.dropdown .dropdown-menu {
+    min-width: 100%;
+    background: #fed831;
+    backdrop-filter: none;
+    border: none;
+    box-shadow: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header
+    .navbar
+    .navbar-collapse
+    ul.bottom-bar
+    li.dropdown
+    .dropdown-menu
+    a.dropdown-item {
+    color: #000;
+    font-weight: 500;
+  }
+  header .navbar .navbar-collapse ul.bottom-bar li a.dropdown-toggle:hover {
+    color: #fff;
+  }
+  header
+    .navbar
+    .navbar-collapse
+    ul.bottom-bar
+    li.dropdown
+    .dropdown-menu
+    a.dropdown-item.active,
+  header
+    .navbar
+    .navbar-collapse
+    ul.bottom-bar
+    li.dropdown
+    .dropdown-menu
+    a.dropdown-item:active {
+    color: #fed831;
+    background: #0d0c0d;
+  }
+  .dropdown.theme-dropdown .dropdown-menu:before,
+  .dropdown.theme-dropdown .dropdown-menu:after {
+    content: none;
+  }
+  header
+    .navbar
+    .navbar-collapse
+    ul.bottom-bar
+    li
+    a.dropdown-toggle
+    img.icon-down {
+    float: right;
+    width: 12px;
+    margin-top: 10px;
+    margin-right: 18px;
+  }
+  .footer-links {
+    margin-bottom: 50px;
+  }
+  .copyright {
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-links {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .footer-links ul li {
+    margin-bottom: 15px;
+  }
+  .social-links ul li {
+    margin-left: 15px;
+  }
+  .social-links ul li a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .social-links {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .social-links .dropdown {
+    margin-right: 0;
+  }
+  .social-links p {
+    margin-bottom: 15px;
+  }
+}
